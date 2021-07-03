@@ -2,6 +2,5 @@ from enum import Enum
 
 
 class Sentiment(Enum):
-    NEGATIVE = "NEGATIVE"
-    NEUTRAL = "NEUTRAL"
-    POSITIVE = "POSITIVE"
+    NORMAL = "NORMAL"
+    TROLL = "TROLL"
